@@ -1,10 +1,10 @@
 # Palmer Penguins App
 
-[Link to run the shiny app](https://christinec.shinyapps.io/palmerpenguinsapp/) 
+[Link to run the app](https://christinec.shinyapps.io/palmerpenguinsapp/) 
 
 ## Overview
 
-The Palmer Penguin App can be used as an exploratory tool or for research purposes that involve looking at penguins that live on the islands Biscoe, Dream, and Torgensen within the Palmer Archipelago of Antarctica between the years 2007 to 2009. The penguin species include Adelie, Chinstrap, and Gentoo. Users can view results based on selected species, islands, various ranges for bill depth, bill length, and flipper length. It also graphs a histogram that helps visualize the corresponding body mass of the penguins. Users can also interact with the results table below the graph and download the table in a csv file for further analysis. 
+The Palmer Penguin App can be used as an exploratory tool or for research purposes that involve looking at penguins that live on the islands Biscoe, Dream, and Torgensen within the Palmer Archipelago of Antarctica between the years 2007 to 2009. The penguin species include Adelie, Chinstrap, and Gentoo. Users can view results based on selected species, islands, various ranges for bill depth, bill length, and flipper length. It also helps visualize the data in a histogram corresponding to the body mass of the penguins. Users can also interact with the results table below the graph and download the table in a csv file for further analysis. 
 
 ### App Features
 
@@ -16,7 +16,7 @@ The Palmer Penguin App can be used as an exploratory tool or for research purpos
 
 4. **Island selection**: Users have the option to filter results by islands or have a broad overview by selecting the "all islands" option.
 
-5. **Display of total number of results**: At the top of the graph, users are shown the total number of penguins that match their search criteria. 
+5. **Display of total number of penguins**: At the top of the graph, users are shown the total number of penguins that match their search criteria. 
 
 6. **Interactive results table**: At the bottom of the graph, there is an interactive table that shows the all the results including more information on each individual penguin. 
 
@@ -33,6 +33,6 @@ The dataset is publicly available and meant to allow for data exploration and vi
 
 ## Acknowledgements 
 
-Shiny tutorial: Dean Attali [Shiny app tutorial](https://deanattali.com/blog/building-shiny-apps-tutorial/)
+Shiny app tutorial: Dean Attali [Shiny app tutorial](https://deanattali.com/blog/building-shiny-apps-tutorial/)
 
 Artwork by @allison_horst
