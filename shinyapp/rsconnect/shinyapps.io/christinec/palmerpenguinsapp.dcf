@@ -1,0 +1,12 @@
+name: palmerpenguinsapp
+title: palmerpenguinsapp
+username: christinec
+account: christinec
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10540370
+bundleId: 7932647
+url: https://christinec.shinyapps.io/palmerpenguinsapp/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
