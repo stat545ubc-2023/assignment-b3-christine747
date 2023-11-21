@@ -8,6 +8,7 @@ penguindata <- read.csv("penguins.csv", stringsAsFactors = FALSE)
 ui <- fluidPage(
   titlePanel("Palmer Penguins App"),
   img(src = "penguin.png"), # added an image of palmerpenguins
+  h4("Search Filters:"),
   sidebarLayout(
     sidebarPanel(
       # added 2 options for users to select the range for bill depth and flipper length. This can be helpful for users if they want to look at a specific
@@ -67,7 +68,7 @@ server <- function(input, output) {
   # histogram that plots the filtered penguins by their body mass in grams. Different colors represent different islands. 
   output$histoplot <- renderPlot({
       ggplot(penguin_filtered(), aes(x = body_mass_g, fill = island)) +
-      geom_histogram(binwidth = 2) +
+      geom_histogram(binwidth = 20) +
       xlab("Body Mass (g)") +
       ylab("Count")
   })
@@ -89,11 +90,11 @@ server <- function(input, output) {
     if (is.null(numPenguins)) {
       numPenguins <- 0
     }
-    paste0("We found ", numPenguins, " penguins that match your description!")
+    paste0("We found ", numPenguins, " penguins that match your filters!")
     
   })
   
-  output$table_download <- downloadHandler( #how to remove sweetness and subtype info in downloaded content??
+  output$table_download <- downloadHandler( 
     filename = "palmerpenguins-results.csv",
     content = function(file) {
       write.csv(penguin_filtered(), file)

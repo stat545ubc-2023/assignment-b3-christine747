@@ -25,11 +25,11 @@ The Palmer Penguin App can be used as an exploratory tool or for research purpos
 
 ## Data Source
 
-The dataset used in this app is from the palmerpenguins package developed by Allison Horst, Alison Hill, and Kristen Gorman.
+The dataset used in this app is from the [palmerpenguins R package](https://github.com/allisonhorst/palmerpenguins) developed by Allison Horst, Alison Hill, and Kristen Gorman.
 
-[Palmerpenguins information](https://allisonhorst.github.io/palmerpenguins/)
+[More information on Palmerpenguins here](https://allisonhorst.github.io/palmerpenguins/)
 
-The dataset is publicly available and meant to allow for data exploration and visualization. 
+The dataset is publicly available and meant to allow for data exploration and visualization. You can install the `palmerpenguins` package in R and access the data with install.packages("palmerpenguins").
 
 ## Acknowledgements 
 
