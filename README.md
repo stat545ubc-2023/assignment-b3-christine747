@@ -1,12 +1,12 @@
 # Palmer Penguins App
 
-[Link to updated version of the app](https://christinec.shinyapps.io/palmerpenguinsapp/) 
+[Link to new version of the app for assignment B4](https://christinec.shinyapps.io/shinyappB4/)  
 
 
-[Link to original version of the app](https://christinec.shinyapps.io/palmerpenguinsapp/)
+[Link to old version of the app](https://christinec.shinyapps.io/palmerpenguinsapp/)
 ## Overview
 
-The Palmer Penguin App can be used as an exploratory tool or for research purposes that involve looking at penguins that live on the islands Biscoe, Dream, and Torgensen within the Palmer Archipelago of Antarctica between the years 2007 to 2009. The penguin species include Adelie, Chinstrap, and Gentoo. Users can view results based on selected species, islands, various ranges for bill depth, bill length, and flipper length. It also helps visualize the data in a histogram corresponding to the body mass of the penguins. Users can also interact with the results table below the graph and download the table in a csv file for further analysis. 
+The Palmer Penguin App can be used as an exploratory tool or for research purposes that involve looking at penguins that live on the islands Biscoe, Dream, and Torgensen within the Palmer Archipelago of Antarctica between the years 2007 to 2009. The penguin species include Adelie, Chinstrap, and Gentoo. Users can view results based on selected species, islands, various ranges for bill depth, bill length, and flipper length. It also helps visualize the data in a histogram corresponding to the body mass of the penguins and a scatter plot for penguin bill size. Users can also interact with the results table below the graph and download the table in a csv file for further analysis. 
 
 ### App Features
 
